@@ -1,22 +1,22 @@
 package dominio1.aplicação1;
 import java.time.LocalDate;
 
-public class Main {
+public class Main1 {
     public static void main(String[] args) {
-        Curso curso1 = new Curso();
+        Curso1 curso1 = new Curso1();
 
        curso1.setTítulo("curso java");
 curso1.setDescricao("descrição curso java");
 curso1.setCargaHoraria(8);
 
 
-Curso curso2 = new Curso();
+Curso1 curso2 = new Curso1();
 
        curso2.setTítulo("curso js");
 curso2.setDescricao("descrição curso js");
 curso2.setCargaHoraria(4);
 
-Mentoria mentoria = new Mentoria();
+Mentoria1 mentoria = new Mentoria1();
 
 mentoria.setTítulo("mentoria de java");
 mentoria.setDescricao("descrição mentoria java");

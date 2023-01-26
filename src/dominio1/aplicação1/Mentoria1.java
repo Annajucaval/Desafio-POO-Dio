@@ -1,9 +1,11 @@
 package dominio1.aplicação1;
 
-public class Curso {
-    private String título;
+import java.time.LocalDate;
+
+public class Mentoria1 {
+     private String título;
     private String descricao;
-    private int cargaHoraria;
+    private LocalDate Data;
     
     public String getTítulo() {
         return título;
@@ -17,19 +19,31 @@ public class Curso {
     public void setDescricao(String descricao) {
         this.descricao = descricao;
     }
-    public int getCargaHoraria() {
-        return cargaHoraria;
+    public LocalDate getData() {
+        return Data;
     }
-    public void setCargaHoraria(int cargaHoraria) {
-        this.cargaHoraria = cargaHoraria;
+    public void setData(LocalDate data) {
+        Data = data;
     }
     @Override
     public String toString() {
-        return "Curso [título=" + título + ", descricao=" + descricao + ", cargaHoraria=" + cargaHoraria + "]";
-    }
+        return "Mentoria [título=" + título + ", descricao=" + descricao + ", Data=" + Data + "]";
+    } 
 
 
-   
+    
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
